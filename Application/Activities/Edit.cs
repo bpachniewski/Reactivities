@@ -37,7 +37,7 @@ namespace Application.Activities
                 // activity.City = request.Activity.City ?? activity.City;
                 // activity.Venue = request.Activity.Venue ?? activity.Venue;
 
-                await _context.SaveChangesAsync();  
+                await _context.SaveChangesAsync();
 
                 return Unit.Value;
             }
